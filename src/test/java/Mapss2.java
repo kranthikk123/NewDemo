@@ -1,8 +1,9 @@
-package a;
+import org.testng.annotations.Test;
 
-public class Mapss {
+public class Mapss2 {
 
-	public static void main(String[] args) {
+	@Test
+	public void TestcaseTwo(){
 		System.out.println("This is KranthiKumar");
 		System.out.println("Jesus");
 		System.out.println("I love you Jesus");

@@ -6,6 +6,9 @@
 	<profiles>
 		<profile>
 			<id>>regression</id>
+			<activation>
+        <activeByDefault>true</activeByDefault>
+    </activation>
 			<build>
 				<pluginManagement>
 					<plugins>
@@ -26,6 +29,9 @@
 		
 		<profile>
 			<id>>smoke</id>
+			<activation>
+        <activeByDefault>true</activeByDefault>
+    </activation>
 			<build>
 				<pluginManagement>
 					<plugins>
@@ -48,7 +54,6 @@
 	<dependencies>
 		<dependency>
 			<!-- https://mvnrepository.com/artifact/org.testng/testng -->
-
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>6.10</version>
